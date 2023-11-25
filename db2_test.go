@@ -33,10 +33,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dcnetio/badger2/options"
-	"github.com/dcnetio/badger2/pb"
-	"github.com/dcnetio/badger2/table"
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/options"
+	"github.com/dcnetio/badger/pb"
+	"github.com/dcnetio/badger/table"
+	"github.com/dcnetio/badger/y"
 	"github.com/stretchr/testify/require"
 )
 

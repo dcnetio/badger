@@ -1,4 +1,4 @@
-module github.com/dcnetio/badger2
+module github.com/dcnetio/badger
 
 go 1.12
 

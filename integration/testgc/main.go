@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dcnetio/badger2"
-	"github.com/dcnetio/badger2/options"
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger"
+	"github.com/dcnetio/badger/options"
+	"github.com/dcnetio/badger/y"
 )
 
 var maxValue int64 = 10000000

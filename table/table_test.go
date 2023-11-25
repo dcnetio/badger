@@ -30,9 +30,9 @@ import (
 	"time"
 
 	"github.com/cespare/xxhash"
-	"github.com/dcnetio/badger2/options"
-	"github.com/dcnetio/badger2/pb"
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/options"
+	"github.com/dcnetio/badger/pb"
+	"github.com/dcnetio/badger/y"
 	"github.com/dgraph-io/ristretto"
 	"github.com/stretchr/testify/require"
 )

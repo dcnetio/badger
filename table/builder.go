@@ -27,9 +27,9 @@ import (
 	"github.com/golang/snappy"
 	"github.com/pkg/errors"
 
-	"github.com/dcnetio/badger2/options"
-	"github.com/dcnetio/badger2/pb"
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/options"
+	"github.com/dcnetio/badger/pb"
+	"github.com/dcnetio/badger/y"
 	"github.com/dgraph-io/ristretto/z"
 )
 

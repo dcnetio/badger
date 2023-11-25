@@ -19,9 +19,9 @@ package badger
 import (
 	"sync"
 
-	"github.com/dcnetio/badger2/pb"
-	"github.com/dcnetio/badger2/trie"
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/pb"
+	"github.com/dcnetio/badger/trie"
+	"github.com/dcnetio/badger/y"
 )
 
 type subscriber struct {

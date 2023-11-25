@@ -21,8 +21,8 @@ import (
 	"math"
 	"os"
 
-	"github.com/dcnetio/badger2"
-	"github.com/dcnetio/badger2/options"
+	"github.com/dcnetio/badger"
+	"github.com/dcnetio/badger/options"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

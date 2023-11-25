@@ -26,7 +26,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/y"
 	"github.com/dgraph-io/ristretto/z"
 	"github.com/pkg/errors"
 )

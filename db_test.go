@@ -35,10 +35,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dcnetio/badger2/options"
-	"github.com/dcnetio/badger2/pb"
-	"github.com/dcnetio/badger2/skl"
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/options"
+	"github.com/dcnetio/badger/pb"
+	"github.com/dcnetio/badger/skl"
+	"github.com/dcnetio/badger/y"
 )
 
 var mmap = flag.Bool("vlog_mmap", true, "Specify if value log must be memory-mapped")

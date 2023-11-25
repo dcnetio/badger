@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dcnetio/badger2/pb"
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/pb"
+	"github.com/dcnetio/badger/y"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/golang/protobuf/proto"
 )

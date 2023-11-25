@@ -22,7 +22,7 @@ import (
 	_ "net/http/pprof"
 	"runtime"
 
-	"github.com/dcnetio/badger2/badger/cmd"
+	"github.com/dcnetio/badger/badger/cmd"
 )
 
 func main() {

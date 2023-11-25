@@ -68,7 +68,7 @@ For more details on our version naming schema please read [Choosing a version](#
 To start using Badger, install Go 1.12 or above and run `go get`:
 
 ```sh
-$ go get github.com/dcnetio/badger2
+$ go get github.com/dcnetio/badger
 ```
 
 This will retrieve the library and install the `badger` command line
@@ -111,7 +111,7 @@ package main
 import (
 	"log"
 
-	badger "github.com/dcnetio/badger2"
+	badger "github.com/dcnetio/badger"
 )
 
 func main() {

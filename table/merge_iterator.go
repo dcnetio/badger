@@ -19,7 +19,7 @@ package table
 import (
 	"bytes"
 
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/y"
 	"github.com/pkg/errors"
 )
 

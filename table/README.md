@@ -85,7 +85,7 @@ blockdev --flushbufs /dev/nvme0n1p4
 ```
 3. Run the benchmark
 ```
-go test -run=^$ github.com/dgraph-io/badger -bench ^BenchmarkDBOpen$ -benchdir="/tmp/data" -v
+go test -run=^$ github.com/dcnetio/badger -bench ^BenchmarkDBOpen$ -benchdir="/tmp/data" -v
 
 badger 2019/06/04 17:15:56 INFO: 126 tables out of 1028 opened in 3.017s
 badger 2019/06/04 17:15:59 INFO: 257 tables out of 1028 opened in 6.014s
@@ -99,10 +99,10 @@ badger 2019/06/04 17:16:17 INFO: Replaying file id: 1998 at offset: 332000
 badger 2019/06/04 17:16:17 INFO: Replay took: 9.81µs
 goos: linux
 goarch: amd64
-pkg: github.com/dgraph-io/badger
+pkg: github.com/dcnetio/badger
 BenchmarkDBOpen-16    	       1	23930082140 ns/op
 PASS
-ok  	github.com/dgraph-io/badger	24.076s
+ok  	github.com/dcnetio/badger	24.076s
 
 ```
 It takes about 23.851s to open a DB with 2 billion sorted key-value entries.

@@ -19,8 +19,8 @@ package badger
 import (
 	"time"
 
-	"github.com/dcnetio/badger2/options"
-	"github.com/dcnetio/badger2/table"
+	"github.com/dcnetio/badger/options"
+	"github.com/dcnetio/badger/table"
 )
 
 // Note: If you add a new option X make sure you also add a WithX method on Options.

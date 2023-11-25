@@ -28,8 +28,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dcnetio/badger2/pb"
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/pb"
+	"github.com/dcnetio/badger/y"
 )
 
 func getSortedKVList(valueSize, listSize int) *pb.KVList {

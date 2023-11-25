@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/dcnetio/badger2"
+	"github.com/dcnetio/badger"
 	"github.com/spf13/cobra"
 )
 

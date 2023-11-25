@@ -42,11 +42,11 @@ script: >-
       uname -a
       GOOS=linux GOARCH=arm go test -v ./...
       # Another round of tests after turning off mmap.
-      GOOS=linux GOARCH=arm go test -v -vlog_mmap=false github.com/dgraph-io/badger
+      GOOS=linux GOARCH=arm go test -v -vlog_mmap=false github.com/dcnetio/badger
     else
       go test -v ./...
       # Another round of tests after turning off mmap.
-      go test -v -vlog_mmap=false github.com/dgraph-io/badger
+      go test -v -vlog_mmap=false github.com/dcnetio/badger
       # Cross-compile for Plan 9
       GOOS=plan9 go build ./...
     fi

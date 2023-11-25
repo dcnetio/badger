@@ -19,7 +19,7 @@ package y
 import (
 	"hash/crc32"
 
-	"github.com/dcnetio/badger2/pb"
+	"github.com/dcnetio/badger/pb"
 
 	"github.com/cespare/xxhash"
 	"github.com/pkg/errors"

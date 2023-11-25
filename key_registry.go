@@ -28,8 +28,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dcnetio/badger2/pb"
-	"github.com/dcnetio/badger2/y"
+	"github.com/dcnetio/badger/pb"
+	"github.com/dcnetio/badger/y"
 )
 
 const (

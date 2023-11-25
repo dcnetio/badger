@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dcnetio/badger2/pb"
+	"github.com/dcnetio/badger/pb"
 	"github.com/stretchr/testify/require"
 )
 

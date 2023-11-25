@@ -7,7 +7,7 @@ os: Windows Server 2012 R2
 # Platform.
 platform: x64
 
-clone_folder: c:\gopath\src\github.com\dgraph-io\badger
+clone_folder: c:\gopath\src\github.com\dcnetio\badger
 
 # Environment variables
 environment:
@@ -27,7 +27,7 @@ install:
 build_script:
   # We need to disable firewall - https://github.com/appveyor/ci/issues/1579#issuecomment-309830648
   - ps: Disable-NetFirewallRule -DisplayName 'File and Printer Sharing (SMB-Out)'
-  - cd c:\gopath\src\github.com\dgraph-io\badger
+  - cd c:\gopath\src\github.com\dcnetio\badger
   - git branch
   - go get -t ./...
 
@@ -35,8 +35,8 @@ build_script:
 test_script:
   # Unit tests
   - ps: Add-AppveyorTest "Unit Tests" -Outcome Running
-  - go test -v github.com/dgraph-io/badger/...
-  - go test -v -vlog_mmap=false github.com/dgraph-io/badger/...
+  - go test -v github.com/dcnetio/badger/...
+  - go test -v -vlog_mmap=false github.com/dcnetio/badger/...
   - ps: Update-AppveyorTest "Unit Tests" -Outcome Passed
 
 notifications:

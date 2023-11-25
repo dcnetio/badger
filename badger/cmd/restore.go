@@ -21,7 +21,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/dcnetio/badger2"
+	"github.com/dcnetio/badger"
 	"github.com/spf13/cobra"
 )
 

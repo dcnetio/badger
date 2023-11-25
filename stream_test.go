@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	bpb "github.com/dcnetio/badger2/pb"
-	"github.com/dcnetio/badger2/y"
+	bpb "github.com/dcnetio/badger/pb"
+	"github.com/dcnetio/badger/y"
 	"github.com/stretchr/testify/require"
 )
 

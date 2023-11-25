@@ -15,4 +15,4 @@ enabled = true
 
 
   [analyzers.meta]
-  import_path = 'github.com/dgraph-io/badger'
+  import_path = 'github.com/dcnetio/badger'
