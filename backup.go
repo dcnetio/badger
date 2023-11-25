@@ -23,8 +23,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/dgraph-io/badger/v2/pb"
-	"github.com/dgraph-io/badger/v2/y"
+	"github.com/dcnetio/badger2/pb"
+	"github.com/dcnetio/badger2/y"
 	"github.com/golang/protobuf/proto"
 )
 

@@ -26,9 +26,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dgraph-io/badger/v2/options"
-	"github.com/dgraph-io/badger/v2/table"
-	"github.com/dgraph-io/badger/v2/y"
+	"github.com/dcnetio/badger2/options"
+	"github.com/dcnetio/badger2/table"
+	"github.com/dcnetio/badger2/y"
 	"github.com/stretchr/testify/require"
 )
 
@@ -244,12 +244,16 @@ func TestIteratePrefix(t *testing.T) {
 // pkg: github.com/dgraph-io/badger
 // BenchmarkIteratePrefixSingleKey/Key_lookups-4         	   10000	    365539 ns/op
 // --- BENCH: BenchmarkIteratePrefixSingleKey/Key_lookups-4
-// 	iterator_test.go:147: Inner b.N: 1
-// 	iterator_test.go:147: Inner b.N: 100
-// 	iterator_test.go:147: Inner b.N: 10000
+//
+//	iterator_test.go:147: Inner b.N: 1
+//	iterator_test.go:147: Inner b.N: 100
+//	iterator_test.go:147: Inner b.N: 10000
+//
 // --- BENCH: BenchmarkIteratePrefixSingleKey
-// 	iterator_test.go:143: LSM files: 79
-// 	iterator_test.go:145: Outer b.N: 1
+//
+//	iterator_test.go:143: LSM files: 79
+//	iterator_test.go:145: Outer b.N: 1
+//
 // PASS
 // ok  	github.com/dgraph-io/badger	41.586s
 //
@@ -259,12 +263,16 @@ func TestIteratePrefix(t *testing.T) {
 // pkg: github.com/dgraph-io/badger
 // BenchmarkIteratePrefixSingleKey/Key_lookups-4         	   10000	    460924 ns/op
 // --- BENCH: BenchmarkIteratePrefixSingleKey/Key_lookups-4
-// 	iterator_test.go:147: Inner b.N: 1
-// 	iterator_test.go:147: Inner b.N: 100
-// 	iterator_test.go:147: Inner b.N: 10000
+//
+//	iterator_test.go:147: Inner b.N: 1
+//	iterator_test.go:147: Inner b.N: 100
+//	iterator_test.go:147: Inner b.N: 10000
+//
 // --- BENCH: BenchmarkIteratePrefixSingleKey
-// 	iterator_test.go:143: LSM files: 83
-// 	iterator_test.go:145: Outer b.N: 1
+//
+//	iterator_test.go:143: LSM files: 83
+//	iterator_test.go:145: Outer b.N: 1
+//
 // PASS
 // ok  	github.com/dgraph-io/badger	41.836s
 //

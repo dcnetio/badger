@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgraph-io/badger/v2/options"
-	"github.com/dgraph-io/badger/v2/y"
+	"github.com/dcnetio/badger2/options"
+	"github.com/dcnetio/badger2/y"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/trace"

@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/dgraph-io/badger/v2/y"
+	"github.com/dcnetio/badger2/y"
 )
 
 const (

@@ -30,10 +30,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dgraph-io/badger/v2"
-	"github.com/dgraph-io/badger/v2/options"
-	"github.com/dgraph-io/badger/v2/pb"
-	"github.com/dgraph-io/badger/v2/y"
+	"github.com/dcnetio/badger2"
+	"github.com/dcnetio/badger2/options"
+	"github.com/dcnetio/badger2/pb"
+	"github.com/dcnetio/badger2/y"
 	"github.com/spf13/cobra"
 )
 

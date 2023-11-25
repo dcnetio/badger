@@ -22,8 +22,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dgraph-io/badger/v2"
-	"github.com/dgraph-io/badger/v2/y"
+	"github.com/dcnetio/badger2"
+	"github.com/dcnetio/badger2/y"
 	"github.com/stretchr/testify/require"
 )
 

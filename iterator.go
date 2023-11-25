@@ -25,11 +25,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dgraph-io/badger/v2/options"
-	"github.com/dgraph-io/badger/v2/table"
+	"github.com/dcnetio/badger2/options"
+	"github.com/dcnetio/badger2/table"
 	"github.com/dgryski/go-farm"
 
-	"github.com/dgraph-io/badger/v2/y"
+	"github.com/dcnetio/badger2/y"
 )
 
 type prefetchStatus uint8

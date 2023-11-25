@@ -35,9 +35,9 @@ import (
 	"github.com/golang/snappy"
 	"github.com/pkg/errors"
 
-	"github.com/dgraph-io/badger/v2/options"
-	"github.com/dgraph-io/badger/v2/pb"
-	"github.com/dgraph-io/badger/v2/y"
+	"github.com/dcnetio/badger2/options"
+	"github.com/dcnetio/badger2/pb"
+	"github.com/dcnetio/badger2/y"
 	"github.com/dgraph-io/ristretto"
 	"github.com/dgraph-io/ristretto/z"
 )

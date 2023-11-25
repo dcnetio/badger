@@ -22,9 +22,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/dgraph-io/badger/v2/pb"
-	"github.com/dgraph-io/badger/v2/table"
-	"github.com/dgraph-io/badger/v2/y"
+	"github.com/dcnetio/badger2/pb"
+	"github.com/dcnetio/badger2/table"
+	"github.com/dcnetio/badger2/y"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/pkg/errors"
 )
