@@ -656,6 +656,8 @@ func (txn *Txn) Commit() error {
 	// txn.conflictKeys can be zero if conflict detection is turned off. So we
 	// should check txn.pendingWrites.
 	if len(txn.pendingWrites) == 0 {
+		// Discard the transaction so that the read is marked done.
+		txn.Discard()
 		return nil // Nothing to do.
 	}
 	// Precheck before discarding txn.
